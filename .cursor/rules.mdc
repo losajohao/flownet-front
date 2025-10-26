@@ -1,0 +1,57 @@
+---
+alwaysApply: true
+---
+# Proyecto Flownet
+
+## Objetivo General
+Sistema de gestión financiera con dos grandes módulos independientes: Negocio y Personal.
+
+## Estructura de Módulos
+
+### 1. MÓDULO NEGOCIO
+Gestión completa de las operaciones comerciales del negocio.
+
+**Submódulos:**
+- **Productos**: Catálogo de productos con gestión de inventario, precios y categorías
+- **Movimientos**: Registro de ingresos y egresos del negocio (Kardex valorizado)
+  - Seguimiento de transacciones comerciales
+  - Asociación opcional con productos
+  - Registro de montos por movimiento
+  - Saldo final global
+- **Reportes**: Análisis y estadísticas del negocio
+  - Reportes de ventas
+  - Análisis de productos
+  - Balance general
+
+### 2. MÓDULO PERSONAL
+Gestión de finanzas personales del usuario.
+
+**Submódulos:**
+- **Gastos**: Registro de gastos personales
+- **Ingresos**: Registro de ingresos personales
+- **Proyecciones**: Planificación financiera y metas de ahorro
+- **Reportes**: Análisis de finanzas personales
+  - Estado de gastos e ingresos
+  - Cumplimiento de proyecciones
+  - Balance personal
+
+## Separación de Módulos
+- Los módulos Negocio y Personal son completamente independientes
+- No se mezclan datos entre módulos
+- Cada módulo tiene su propio sistema de reportes y análisis
+
+## Usuarios
+- Pensado para un negocio pequeño o mediano con necesidades personales
+- No requiere gestión compleja de roles
+- No se implementará autenticación por ahora
+
+## Interfaz y Experiencia
+- Interfaz clara y fácil de usar
+- Diseño minimalista en blanco y negro (colores a definir posteriormente)
+- Navegación clara entre módulos y submódulos
+- Dashboard con resumen de ambos módulos
+
+## Propósito de la Herramienta
+- Ayudar al negocio a tener trazabilidad de operaciones comerciales
+- Permitir gestión de finanzas personales en el mismo sistema
+- Mantener separación clara entre lo comercial y lo personal
